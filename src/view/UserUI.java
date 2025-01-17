@@ -5,7 +5,6 @@ import java.io.InputStreamReader;
 import java.util.List;
 import model.User;
 
-//이제 되나?ss 왜 안늘어g
 public class UserUI {
     private BufferedReader br;
 
@@ -14,7 +13,7 @@ public class UserUI {
     }
 
     public int menu() {
-        System.out.println("1. 회원등록111");
+        System.out.println("1. 회원등록");
         System.out.println("2. 회원목록 보기");
         System.out.println("3. 회원 정보 수정 ");
         System.out.println("4. 회원 정보 삭제");
