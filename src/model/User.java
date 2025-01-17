@@ -10,7 +10,7 @@ public class User implements Serializable {
     private String email;
     private int birthYear;
 
-    public User(String name, String email, int birthYear) {
+    public User(String email, String name, int birthYear) {
         this.email = email;
         this.name = name;
         this.birthYear = birthYear;
