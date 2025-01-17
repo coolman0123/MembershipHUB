@@ -12,7 +12,7 @@ public class UserMembershipController {
         List<User> users = userDao.loadUsers(); //파일에 있는 회원 목록
         while (true) {
             int menuID = userUI.menu();
-            if (menuID == 3) {
+            if (menuID == 5) {
                 System.out.println("프로그램 종료");
                 userDao.saveUser(users); //종료시 현재 users 정보를 저장
                 break;
@@ -23,6 +23,11 @@ public class UserMembershipController {
             } else if (menuID == 2) {
                 userUI.printUserList(users);
 
+            } else if (menuID == 3) {
+                userUI.modifyUser(users);
+
+            } else if (menuID == 4) {
+                userUI.deleteUser(users);
             }
         }
     }
