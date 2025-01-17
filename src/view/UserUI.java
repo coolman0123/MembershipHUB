@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.List;
 import model.User;
 
-//이제 되나?
+//이제 되나?ss
 public class UserUI {
     private BufferedReader br;
 
