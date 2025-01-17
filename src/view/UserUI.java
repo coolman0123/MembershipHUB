@@ -14,7 +14,7 @@ public class UserUI {
     }
 
     public int menu() {
-        System.out.println("1. 회원등록111");
+        System.out.println("1. 회원등록112323g1");
         System.out.println("2. 회원목록 보기");
         System.out.println("3. 회원 정보 수정 ");
         System.out.println("4. 회원 정보 삭제");
